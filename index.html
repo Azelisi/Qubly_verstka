@@ -5,8 +5,8 @@
 
 		<meta charset="utf-8">
 
-		<title>Start Html template - htmllessons.ru</title>
-		<meta name="description" content="htmllessons.ru - Лучшие уроки по созданию сайтов">
+		<title>Verstka</title>
+		<meta name="description" content="Qubly">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -27,6 +27,7 @@
 
 	</head>
 	<body>
+		<section id="top_banner" style="background-image: url('img/main_banner/bg_main_banner.svg');">
 
 		<header id="header">
 			<div class="container">
@@ -34,7 +35,15 @@
 					<a href="/" class="logo"><img src="img/logo.svg" alt="Analytics"></a>
 					<div class="right_side_header">
 						<ul class="mnu_top">
-							<li><a href="#">About</a></li>
+							<li class="has_sub_menu">
+								<a href="#">About</a>
+							<ul class="sub_menu">
+								<li><a href="#">Certification</a></li>
+								<li><a href="#">Team</a></li>
+								<li><a href="#">Requisites</a></li>
+								<li><a href="#">History</a></li>
+							</ul>
+						</li>
 							<li><a href="#">Pricing</a></li>
 							<li><a href="#">Contact Us</a></li>
 							<li><a href="#">Login</a></li>
@@ -44,6 +53,71 @@
 				</div>
 			</div>
 		</header>
+
+		<div class="main_banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="mb_info">
+							<div class="notif">
+								<img src="img/main_banner/star.svg" alt="star_logo">
+								<p>v3.1 released. <a href="#">Learn more</a></p>
+							</div>
+							<h1>
+								Your data with real-time analytics
+							</h1>
+							<div class="descr">
+								Harness the potential of Big Data Analytics & Cloud Services and become a data-driven organization with Needle tail
+							</div>
+							<div class="btns">
+								<a href="#" class="btn">Start free trial</a>
+								<a href="#" class="btn btn_white">Learn more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<img src="img/main_banner/image_mb.svg" alt="Облачные сервера" class="img_responsive">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="advantages">
+	<div class="container">
+		<div class="notif">
+			<img src="img/advantages/why_icon.svg" alt="star_logo">
+			<p>Why Qubly</p>
+		</div>
+		<div class="heading_main">
+		<h2>Get actionable insights from Big Data in 3 steps</h2>
+		<div class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
+		</div>
+		<div class="row row_adv">
+			<div class="col-lg-4">
+				<div class="item_adv">
+					<img src="/img/advantages/icon_1.svg" alt="Data in real-time">
+					<div class="heading">Data in real-time</div>
+					<div class="descr">Collect data in real-time from multiple channels and move it into a data lake, in its original format.</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="item_adv">
+					<img src="/img/advantages/icon_2.svg" alt="Algorithms">
+					<div class="heading">Powerful Algorithms</div>
+					<div class="descr">With the help of powerful algorithms, quality rules & techniques, obtain simplified & enriched data.</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="item_adv">
+					<img src="/img/advantages/icon_3.svg" alt="Business insights">
+					<div class="heading">Valuable business insights</div>
+					<div class="descr">Collect processed & cleansed data that is ready to be analyzed to gather valuable business insights.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
 		
 		<!-- libs -->
 		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
