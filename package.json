@@ -1,0 +1,19 @@
+{
+  "name": "qubly_verstka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huinko/Qubly_verstka.git"
+  },
+  "author": "Egor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huinko/Qubly_verstka/issues"
+  },
+  "homepage": "https://github.com/Huinko/Qubly_verstka#readme"
+}

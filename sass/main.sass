@@ -54,3 +54,51 @@ img
 	display: block
 	max-width: 100%
 	height: auto
+
+
+// btns
+
+.btn_simple
+	color: $accent
+	border: 1px solid $accent
+	font-weight: 600
+	padding: 6px 34px
+	transition: all .4s ease
+	text-decoration: none
+	border-radius: 20px
+	&:hover
+		background-color: $accent
+		color: #fff
+
+
+
+// btns
+
+#header
+	padding-top: 24px
+	.inner_header
+		display: flex
+		align-items: center
+		justify-content: space-between
+		.logo
+			display: block
+			width: 48px
+			height: 48px
+			>img
+				width: 100%
+		.right_side_header
+			display: flex
+			align-items: center
+			.mnu_top
+				list-style-type: none
+				>li
+					margin-right: 40px
+					display: inline-block
+					>a
+						display: block
+						text-decoration: none
+						font-weight: 500
+						color: #000
+						transition: color .4s ease
+						&:hover
+							color: $accent
