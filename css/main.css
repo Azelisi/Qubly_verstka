@@ -339,6 +339,6 @@ section.information .right_info {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      #reviews .nav_rev > div:hover {
+      #reviews .nav_rev > div:hover, #reviews .nav_rev > div.active {
         -webkit-filter: grayscale(0);
                 filter: grayscale(0); }
