@@ -276,6 +276,10 @@ section.information
 	background-image: url('/img/reviews/reviews.svg')
 	.item_rev
 		text-align: center
+		display: none
+		animation: opac .6s
+		&.active
+			display: block
 		>.quotes
 			color: $dark_accent
 			font-size: 22px
@@ -308,5 +312,5 @@ section.information
 			display: flex
 			align-items: center
 			justify-content: center
-			&:hover, &:active
+			&:hover
 				filter: grayscale(0)

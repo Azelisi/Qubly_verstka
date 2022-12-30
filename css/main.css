@@ -286,7 +286,12 @@ section.information .right_info {
   background-repeat: no-repeat;
   background-image: url("/img/reviews/reviews.svg"); }
   #reviews .item_rev {
-    text-align: center; }
+    text-align: center;
+    display: none;
+    -webkit-animation: opac 0.6s;
+            animation: opac 0.6s; }
+    #reviews .item_rev.active {
+      display: block; }
     #reviews .item_rev > .quotes {
       color: #160637;
       font-size: 22px;
@@ -334,6 +339,6 @@ section.information .right_info {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      #reviews .nav_rev > div:hover, #reviews .nav_rev > div:active {
+      #reviews .nav_rev > div:hover {
         -webkit-filter: grayscale(0);
                 filter: grayscale(0); }
