@@ -288,15 +288,16 @@ section.information .right_info {
   #reviews .item_rev {
     text-align: center;
     display: none;
-    -webkit-animation: opac 0.6s;
-            animation: opac 0.6s; }
+    -webkit-animation: opac 0.8s;
+            animation: opac 0.8s; }
     #reviews .item_rev.active {
       display: block; }
     #reviews .item_rev > .quotes {
       color: #160637;
       font-size: 22px;
       margin: 0 auto 16px;
-      max-width: 660px; }
+      max-width: 660px;
+      height: 100px; }
     #reviews .item_rev > img {
       width: 80px;
       height: 80px;
