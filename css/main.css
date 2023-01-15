@@ -497,7 +497,7 @@ section.information .right_info {
         transition: transform 0.4s ease;
         transition: transform 0.4s ease, -webkit-transform 0.4s ease;
         text-decoration: none; }
-        #footer .logo_info > .social > li > a:hover {
+        #footer .logo_info > .social > li > a:hover > img {
           -webkit-transform: translateY(-5px);
                   transform: translateY(-5px); }
       #footer .logo_info > .social > li:last-child {
